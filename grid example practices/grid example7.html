@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+</html>
+<title>vaishnavi</title>
+<style>
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100vh;
+        grid-gap: 10px;
+        align-items: center;
+        background-color: chocolate;
+    }
+
+    #grid>div {
+        padding: 20px;
+        font-size: 4vw;
+        color: green;
+    }
+
+    .red {
+        background: orangered;
+        height: 40%;
+
+    }
+
+    .green {
+        background-color: yellowgreen;
+        height: 60%;
+
+    }
+
+    .blue {
+        background-color: blueviolet;
+        height: 50%;
+    }
+
+    body {
+        margin: 0;
+    }
+</style>
+<div id="grid">
+    <div class="red">1</div>
+    <div class="green">2</div>
+    <div class="blue">3</div>
+</div>

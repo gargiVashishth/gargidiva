@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+</html>
+<title>Example</title>
+<style>
+#grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  justify-items: center;
+  background-color: beige;
+}
+
+#grid > div {
+  padding: 20px;
+  font-size: 4vw;
+  color: white;
+  width: 20%;
+}
+.red {
+  background: orangered;
+  justify-self: end;
+}
+.green {
+  background: yellowgreen;
+}
+.blue {
+  background: steelblue;
+  justify-self: start;
+}
+</style>
+
+<div id="grid">
+  <div class="red">1</div>
+  <div class="green">2</div>
+  <div class="blue">3</div>
+</div>

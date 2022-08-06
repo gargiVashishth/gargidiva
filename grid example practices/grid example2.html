@@ -1,0 +1,35 @@
+<!doctype html>
+<title>gargi1</title>
+<style>
+    body {
+        display:grid;
+        grid-template-areas:none;
+        grid-template-rows:60px 1fr 60px;
+        grid-template-columns:20% 1fr 15%
+        grid-gap: 10px;
+        height: 100vh;
+        margin: 0;
+    }
+    header,footer,article,nav,div{
+        padding:20px;
+        background:gold;
+    }
+    #pageHeader{
+        grid-area: header;
+    }
+    #pagefooter{
+        grid-area: header;
+    }
+    #mainArticle {
+        grid-area:article;
+    }
+    #mainNav {
+        grid-area:nav;
+    }
+    </style>
+    <body>
+        <header id="pageHeader">Header</header>
+        <article id="mainArticle">Article</article>
+        <nav id="mainNav">Nav</nav>
+        <footer id="pageFooter">Footer</footer>
+    </body>
